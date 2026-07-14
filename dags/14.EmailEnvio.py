@@ -15,6 +15,6 @@ with DAG(
         to = ['yuriidalgo@gmail.com', 'yuriidalgosilva@prefeitura.sp.gov.br'],
         subject = "Teste de envio de e-mail no Airflow",
         html_content = "<h3>Este é um teste de envio de e-mail usando o Airflow!</h3>",
-
-
+        from_email = "yuriidalgo@gmail.com"
+        
     )
